@@ -13,7 +13,7 @@
         android:layout_marginTop="25dp"
         android:textSize="35dp"
         android:gravity="center"
-        android:text="Empresa tecnologica" />
+        android:text="Car Wash" />
 
     <TextView
         android:layout_width="300dp"
@@ -22,7 +22,7 @@
         android:layout_marginTop="10dp"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Codigo" />
+        android:text="Placa" />
 
     <EditText
         android:id="@+id/etcodigo"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="2022" />
+        android:hint="ULD27E" />
 
     <TextView
         android:layout_width="300dp"
@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Google, LLC" />
+        android:hint="Chevrolet" />
 
     <TextView
         android:layout_width="300dp"
@@ -62,7 +62,7 @@
         android:layout_marginTop="10dp"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Pais" />
+        android:text="Ciudad" />
 
     <EditText
         android:id="@+id/etciudad"
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Colombia" />
+        android:hint="Barranquilla" />
 
     <TextView
         android:layout_width="300dp"
@@ -100,21 +100,21 @@
                 android:textSize="25dp"
                 android:checked="true"
                 android:layout_height="40dp"
-                android:text=" Backend" />
+                android:text=" Premiun" />
 
             <RadioButton
                 android:id="@+id/rbascenso"
                 android:layout_width="match_parent"
                 android:textSize="25dp"
                 android:layout_height="40dp"
-                android:text=" FrontEnd" />
+                android:text=" Vip" />
 
             <RadioButton
                 android:id="@+id/rbaficionado"
                 android:layout_width="match_parent"
                 android:textSize="25dp"
                 android:layout_height="40dp"
-                android:text=" FullStack" />
+                android:text=" Sencilla" />
         </RadioGroup>
     </LinearLayout>
 
@@ -190,4 +190,5 @@
             android:onClick="Anular"
             android:text="Cancelar" />
     </LinearLayout>
+
 </LinearLayout>
